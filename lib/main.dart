@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      initialRoute: Routes.welcomeScreen,
+      initialRoute: Routes.userDetailsScreen,
       routes: appRoutes,
       title: 'Tasky',
       theme: ThemeData(
